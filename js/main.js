@@ -27,7 +27,7 @@ function displayUsers(users) {
         <p class='email'>Phone: ${user.phone} </p>
         <a class='link' href="/pages/posts.html" onclick="getTodos(${user.id})">Posts</a>
         <a class='link' href="/pages/todos.html" onclick="getTodos(${user.id})">Todos</a>
-        <a class='link' href="/pages/todos.html" onclick="getTodos(${user.id})">Alboms</a>
+        <a class='link' href="/pages/album.html" onclick="getTodos(${user.id})">Alboms</a>
       </div>
      
     `;
