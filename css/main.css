@@ -1,0 +1,77 @@
+.cards {
+  padding: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  flex-basis: 25%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.45);
+  height: 257px;
+  line-height: 80%;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
+}
+body {
+  background: rgb(16, 239, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 239, 184, 1) 0%,
+    rgba(70, 144, 207, 1) 33%,
+    rgba(118, 56, 194, 1) 100%
+  );
+}
+
+.title2 {
+  /* height: 30px; */
+  font-weight: 300;
+  color: black;
+}
+.title4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #595c5f;
+}
+.link {
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #0dcaf0;
+  color: #fff;
+  /* margin-top: 40px; */
+}
+
+.heading1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+}
+.cardPost {
+  /* flex-basis: 25%; */
+  width: 900px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.45);
+  height: 200px;
+  /* width: 100vh; */
+  background-color: #fff;
+}
+.btn {
+  color: red;
+  background-color: #0dcaf0;
+}
